@@ -1,4 +1,4 @@
-# final-project-team-bjy-final-project
+# final-project
 final-project-team-bjy-final-project created by GitHub Classroom
 
 Idea: Barbershop Website 

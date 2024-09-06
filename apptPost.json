@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Benson Bui",
+        "date": "December 10",
+        "time": "10:00 A.M.",
+        "email": "benson@oregonstate.edu",
+        "type": "Full package haircut ($35)"
+    },
+    {
+        "name": "Jason Ho",
+        "date": "December 11",
+        "time": "2:00 P.M.",
+        "email": "jason@oregonstate.edu",
+        "type": "Regular haircut ($25)"
+    },
+    {
+        "name": "Chun-Yu Yang",
+        "date": "December 11",
+        "time": "9:00 A.M.",
+        "email": "yang@oregonstate.edu",
+        "type": "Beard and mustache lineup ($20)"
+    }
+]
+  
+

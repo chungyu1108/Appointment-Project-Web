@@ -1,0 +1,424 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: #4B3929;
+    max-width: 100%;
+}
+
+header {
+    background-color: #CEB793;
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    color:#4B3929;
+    font-family: 'Praise', cursive;
+    font-size: 90px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.navbar {
+    font-size: 22px;
+    background-color: #6D5241;
+    position: relative;
+}
+.navlist {
+    margin: 0;
+}
+
+.navitem {
+    display: inline-block;
+}
+
+.navitem:hover {
+    background-color: rgba(231, 132, 119, 0.18);
+    color: white;
+}
+
+.navitem a {
+    display: inline-block;
+    color:white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.main-div {
+    padding-top: 3px;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+}
+
+.main-img {
+    max-height: 20%;
+    max-width: 100%;
+    opacity: 0.5;
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.book-button {
+    position: fixed;
+    top: 90%;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    background-color: #915551;
+    color: white;
+
+}
+
+#a-button {
+    position: fixed;
+    top: 90%;
+    height: 50px;
+    width: 200px;
+}
+
+.big-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.book-button:hover {
+    background-color: #915551;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome-message {
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 180px;
+}
+
+.main-page {
+    color: white;
+    font-family: serif;
+    position: absolute;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+
+.welcome-title {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    text-shadow: 0 0 3px #2f3f0f, 0 0 10px #000000;
+    font-family: 'Praise', cursive;
+}
+
+.welcome-quote {
+    text-align: center;
+    /* padding-left: 20%; */
+    font-size: 50px;
+    border-width: 1px;
+    /* text-align: center; */
+    max-width: 100%;
+}
+
+
+.container
+{
+    position: relative;
+    bottom: 150px;
+    background-color: #715D4C;
+    margin: 200px;
+    box-shadow: black;
+    display: block;
+    grid-template-columns: 40% 60%;
+}
+
+.container-time
+{
+    background-color: #CEB793;
+    padding: 50px;
+    outline: 3px dashed goldenrod;
+    outline-offset: -30px;
+    text-align: center;
+    border: 3px dashed #998100;
+}
+
+.heading
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container-form
+{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: black;
+}
+
+.appointments {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+form p
+{
+    font-weight: 600;
+}
+
+.btn
+{
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 1);
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+#about-div {
+    padding-top: 3px;
+    height: 20%;
+    width: 100%;
+    background-color: #715D4C;
+}
+
+.about-photo {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    left: 300px;
+    top: 210px;
+    
+}
+
+.about-img {
+    border: 2px solid white;
+    height: 600px;
+    width: 600px; 
+    margin-right:  500px;
+    position: relative;
+}
+
+.about-text {
+    color: black;
+    flex-direction: column;
+
+    font-family: sans-serif;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin-right: 1000px;
+    background-color:white ;
+    border: 2px solid gold;
+    position: relative;
+    bottom: 335px;
+    left: 845px;
+}
+
+#about-heading {
+    color: #CEB793;
+    font-size: 40px;
+}
+
+#about-p {
+    color: #CEB793;
+    line-height: 40px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.about-header {
+    color: #CEB793;
+    font-size: 50px;
+    height: 100px;
+    font-family: 'Praise', cursive;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 1100px;
+}
+
+#post {
+    position: relative;
+    padding: 5px;
+}
+
+.place {
+    position: static;
+    left: -400px;
+}
+
+h3 {
+    word-spacing: 20px;
+    margin-left: 80px;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.content {
+    list-style: none;
+    width: 100px;
+    position: relative;
+    text-align: start;
+}
+
+.post-info {
+    width: 800px;
+    background: #fff;
+    opacity: 0.8;
+    line-height: 40px;
+    position: relative;
+    padding: 0 5px;
+    box-shadow: 3px 6px 4px burlywood;
+}
+
+div.info-date{
+    float: 20%right;
+}
+
+div.info-time{
+    float: 40%right;
+}
+
+div.info-type {
+    float: 60%right;
+}
+
+div.info-email{
+    float: 80%right;
+}
+
+.cancel
+{
+    background-color: blanchedalmond;
+    color: rgb(97, 86, 63);
+    padding: 5px 10px;
+    border: none;
+    float: right;
+    position: relative;
+    right: 7px;
+    top: 7px;
+    font-size: 13px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 1);
+}
+
+.cancel:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.app-list{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    width: auto;
+    position: relative;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.app-list2{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    width: 40%;
+    position: relative;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.appt-text {
+    font-family: 'Praise', cursive;
+    font-size: 90px;
+    color: #CEB793;
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: relative;
+    -webkit-text-stroke: .2px black;
+}
+
+.appt-detail {
+    position: relative;
+    float: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    width: 800px;
+    /* left: -550px; */
+}
+
+.form-page {
+    padding: 10px;
+}
+
+#client-name {
+    padding-right: 15%;
+    width: 50%;
+}
+
+#client-email {
+    padding-right: 15%;
+    width: 50%;
+}
+
+#client-date {
+    padding-right: 15%;
+    width: 50%;
+
+}
+
+#client-time {
+    padding-right: 15%;
+    width: 50%;
+
+}
+
+#client-type {
+    padding-right: 15%;
+    width: 65.5%;
+}
+
+.input-info {
+    padding-left: 15%;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+.heading-heading-gold{
+    font-family: fantasy;
+    font-size: xx-large;
+    color: #CEB793;
+}
+

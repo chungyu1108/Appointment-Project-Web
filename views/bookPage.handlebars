@@ -1,0 +1,73 @@
+<div class="container">
+            
+    <div class="container-time">
+        <h2 class="heading">Time Open</h2>
+        <h2 class="heading-days">Monday-Friday</h2>
+        <h4>7am - 5pm</h4>
+        <h4>12pm - 1pm (lunch/time)</h4>
+
+        <h2 class="heading-days">Saturday and Sunday</h2>
+        <h4>9 am - 5pm</h4>
+        <h4>12pm - 1pm (lunch/time)</h4>
+        <h4 class="heading-phone">appointment phone call: (123)-456-789</h4>
+        
+    </div>
+    
+    <div class="container-form">
+        
+        <form action="#" class ="form-page">
+            <h2 class="heading heading-gold"><center><strong>Booking Appointent</strong></center></h2>
+
+            <div class="form-field">
+                <h4 class="input-info">Your name</h4>
+                <input id="client-name" type="text" placeholder="Your name">
+            </div>
+            <div class="form-field">
+                <h4 class="input-info">Your E-mail</h4>
+                <input type="email" placeholder="Your e-mail" id="client-email">
+            </div>
+            <div class="form-field">
+                <h4 class="input-info">Date</h4>
+                <input type="date" id="client-date">
+            </div>
+            <div class="form-field">
+                <h4 class="input-info">Time</h4>
+                <input type="Time" id="client-time">
+            </div>
+            <div>
+                <div class="form-field">
+                    <h4 class="input-info">Haircut style</h4>
+                    <select name="select" id="client-type">
+                        <option selected value="">Any</option>
+                        <option value="Regular Haircut ($25)">Regular Haircut ($25)</option>
+                        <option value="Lineup only ($15)">Lineup only ($15)</option>
+                        <option value="Beard and mustache lineup ($20)">Beard and mustache lineup ($20)</option>
+                        <option value="Full package haircut ($35)">Full package haircut ($35)</option>
+                    </select>
+                </div>
+                <center><button class="btn">Submit</button></center>
+                <!-- <i class="fa-plus" aria-hidden="true"></i> -->
+            </div>
+        </form>
+    </div>
+
+    <div class="app-list">
+        <h2 class="appt-text">Appointment List</h2>
+    </div>
+    <div class ="app-list2">
+        <h3 class="appt-detail">(Name) (Date) (Time) (E-mail) (Haircut)</h3>
+    </div>
+
+    <div id="post">
+        <div class="place">
+            <div style="color: rgb(182, 142, 67)">
+
+                {{#each newPost}}
+                    {{> barberPost}}
+                {{/each}}
+
+
+            </div>
+        </div>
+    </div>
+</div>
